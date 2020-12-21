@@ -4,6 +4,7 @@ set -e
 
 read -p "Username: " username
 read -p "Keystore password: " -s key_pwd
+echo ""
 read -p "Confirm keystore password: " -s key_pwd_confirm
 echo ""
 
